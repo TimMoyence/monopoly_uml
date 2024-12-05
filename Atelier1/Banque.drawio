@@ -1,6 +1,6 @@
 <mxfile host="65bd71144e">
     <diagram id="IR0WtdUaMRRv4yMb3qp2" name="Page-1">
-        <mxGraphModel dx="817" dy="691" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+        <mxGraphModel dx="523" dy="1065" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -15,63 +15,6 @@
                 </mxCell>
                 <mxCell id="10" value="- Atelier1.Banque()&lt;br&gt;+setCash(int cash)&lt;br&gt;+ getInstance() : Atelier1.Banque" style="rounded=0;whiteSpace=wrap;html=1;" parent="11" vertex="1">
                     <mxGeometry y="120" width="180" height="60" as="geometry"/>
-                </mxCell>
-                <mxCell id="17" value="" style="group" vertex="1" connectable="0" parent="1">
-                    <mxGeometry x="620" y="240" width="180" height="120" as="geometry"/>
-                </mxCell>
-                <mxCell id="13" value="ProprieteFactory" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="17">
-                    <mxGeometry width="180" height="60" as="geometry"/>
-                </mxCell>
-                <mxCell id="14" value="+createProduct(type)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="17">
-                    <mxGeometry y="60" width="180" height="60" as="geometry"/>
-                </mxCell>
-                <mxCell id="25" value="" style="group" vertex="1" connectable="0" parent="1">
-                    <mxGeometry x="350" y="140" width="180" height="180" as="geometry"/>
-                </mxCell>
-                <mxCell id="26" value="ProduitGenerique" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="25">
-                    <mxGeometry width="180" height="60" as="geometry"/>
-                </mxCell>
-                <mxCell id="27" value="&lt;p style=&quot;margin: 0px; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-size-adjust: none; font-kerning: auto; font-optical-sizing: auto; font-feature-settings: normal; font-variation-settings: normal; font-variant-position: normal; font-stretch: normal; font-size: 11px; line-height: normal; text-align: start;&quot; class=&quot;p1&quot;&gt;&lt;span style=&quot;color: rgb(255, 255, 255); background-color: initial;&quot;&gt;- int prix&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-size-adjust: none; font-kerning: auto; font-optical-sizing: auto; font-feature-settings: normal; font-variation-settings: normal; font-variant-position: normal; font-stretch: normal; font-size: 11px; line-height: normal; text-align: start;&quot; class=&quot;p1&quot;&gt;&lt;span style=&quot;color: rgb(255, 255, 255); background-color: initial;&quot;&gt;- string nom&lt;/span&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-size-adjust: none; font-kerning: auto; font-optical-sizing: auto; font-feature-settings: normal; font-variation-settings: normal; font-variant-position: normal; font-stretch: normal; font-size: 11px; line-height: normal; text-align: start;&quot; class=&quot;p1&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="25">
-                    <mxGeometry y="60" width="180" height="60" as="geometry"/>
-                </mxCell>
-                <mxCell id="28" value="+ setProduit(int prix, string nom)&lt;br&gt;&lt;span style=&quot;color: rgb(255, 255, 255); font-size: 11px; text-align: start;&quot;&gt;+ afficher()&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="25">
-                    <mxGeometry y="120" width="180" height="60" as="geometry"/>
-                </mxCell>
-                <mxCell id="29" value="" style="edgeStyle=none;html=1;fontColor=#FFFFFF;" edge="1" parent="1" source="22" target="28">
-                    <mxGeometry relative="1" as="geometry"/>
-                </mxCell>
-                <mxCell id="31" value="" style="group" vertex="1" connectable="0" parent="1">
-                    <mxGeometry x="340" y="430" width="180" height="120" as="geometry"/>
-                </mxCell>
-                <mxCell id="22" value="Gare" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="31">
-                    <mxGeometry width="180" height="60" as="geometry"/>
-                </mxCell>
-                <mxCell id="23" value="&lt;p style=&quot;margin: 0px; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-size-adjust: none; font-kerning: auto; font-optical-sizing: auto; font-feature-settings: normal; font-variation-settings: normal; font-variant-position: normal; font-stretch: normal; font-size: 11px; line-height: normal; text-align: start;&quot; class=&quot;p1&quot;&gt;&lt;font color=&quot;#ffffff&quot;&gt;+ afficher()&lt;/font&gt;&lt;/p&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="31">
-                    <mxGeometry y="60" width="180" height="60" as="geometry"/>
-                </mxCell>
-                <mxCell id="32" value="" style="group" vertex="1" connectable="0" parent="1">
-                    <mxGeometry x="530" y="430" width="180" height="120" as="geometry"/>
-                </mxCell>
-                <mxCell id="33" value="Terrain" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="32">
-                    <mxGeometry width="180" height="60" as="geometry"/>
-                </mxCell>
-                <mxCell id="34" value="&lt;p style=&quot;margin: 0px; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-size-adjust: none; font-kerning: auto; font-optical-sizing: auto; font-feature-settings: normal; font-variation-settings: normal; font-variant-position: normal; font-stretch: normal; font-size: 11px; line-height: normal; text-align: start;&quot; class=&quot;p1&quot;&gt;&lt;font color=&quot;#ffffff&quot;&gt;+ afficher()&lt;/font&gt;&lt;/p&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="32">
-                    <mxGeometry y="60" width="180" height="60" as="geometry"/>
-                </mxCell>
-                <mxCell id="35" value="" style="group" vertex="1" connectable="0" parent="1">
-                    <mxGeometry x="140" y="430" width="180" height="120" as="geometry"/>
-                </mxCell>
-                <mxCell id="36" value="Compagnie" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="35">
-                    <mxGeometry width="180" height="60" as="geometry"/>
-                </mxCell>
-                <mxCell id="37" value="&lt;p style=&quot;margin: 0px; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-size-adjust: none; font-kerning: auto; font-optical-sizing: auto; font-feature-settings: normal; font-variation-settings: normal; font-variant-position: normal; font-stretch: normal; font-size: 11px; line-height: normal; text-align: start;&quot; class=&quot;p1&quot;&gt;&lt;font color=&quot;#ffffff&quot;&gt;+ afficher()&lt;/font&gt;&lt;/p&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="35">
-                    <mxGeometry y="60" width="180" height="60" as="geometry"/>
-                </mxCell>
-                <mxCell id="38" style="edgeStyle=none;html=1;entryX=0;entryY=1;entryDx=0;entryDy=0;fontColor=#FFFFFF;" edge="1" parent="1" source="36" target="28">
-                    <mxGeometry relative="1" as="geometry"/>
-                </mxCell>
-                <mxCell id="39" value="" style="edgeStyle=none;html=1;fontColor=#FFFFFF;" edge="1" parent="1" source="33" target="28">
-                    <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
             </root>
         </mxGraphModel>
